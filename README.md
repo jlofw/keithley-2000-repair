@@ -25,6 +25,7 @@
 
 ## Reference
 
+- K2000 Repair Manual (see resources)
 - <https://xdevs.com/fix/kei2000/>
 - <https://www.eevblog.com/forum/repair/repair-old-keithley-2000-teardown-and-fix/>
 - <https://www.eevblog.com/forum/repair/repaired-keithley-2000/>
