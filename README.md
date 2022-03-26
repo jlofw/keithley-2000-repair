@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# keithley-2000-repair (work in progress)
-
-Repair documentation of Keithley 2000.
-=======
 # Repair documentation (work in progress)
 
 ## Built-in test
@@ -29,18 +24,13 @@ Repair documentation of Keithley 2000.
 - 600.1
 - 600.2
 - 601.2
->>>>>>> ecce8451ca649ade572334cd2a082dfe47c50c54
 
 ## Firmware and calibration backup
 
 
-
 ## Reference
 
-<<<<<<< HEAD
-=======
 - K2000 Repair Manual (see resources)
->>>>>>> ecce8451ca649ade572334cd2a082dfe47c50c54
 - <https://xdevs.com/fix/kei2000/>
 - <https://xdevs.com/guide/plastic_bleach/>
 - <https://www.eevblog.com/forum/repair/keithley-2000-firmware-update/>
