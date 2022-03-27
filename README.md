@@ -25,7 +25,7 @@
 - 600.2
 - 601.2
 
-## Firmware and calibration backup
+## Firmware and calibration data backup
 
 ![firmware and cal ic](/images/cpu.jpg?raw=true)
 
