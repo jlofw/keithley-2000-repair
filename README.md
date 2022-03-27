@@ -37,6 +37,24 @@ The calibration IC U136 is a 24LC16B, an I2C EEPROM. This was read in-circuit by
 
 ![cal ic read](/images/read_cal.jpg?raw=true)
 
+## Flashing new firmware
+
+...
+
+## Electrolytic capacitor replacement
+
+| Designator | Replacement |
+| ---        | ----------- |
+| C104 | 63YXF100MEFC10X12.5 |
+| C131 | ECA-1HHG102 |
+| C146 | 16ZLJ2200M12.5X20|
+| C148 | ECA-1HHG102 |
+| C156 | MAL219055682E3 |
+
+## Fault repairs
+
+...
+
 ## Reference
 
 - K2000 Repair Manual (see resources)
