@@ -37,10 +37,6 @@ The calibration IC U136 is a 24LC16B, an I2C EEPROM. This was read in-circuit by
 
 ![cal ic read](/images/read_cal.jpg?raw=true)
 
-## Flashing new firmware
-
-...
-
 ## Electrolytic capacitor replacement
 
 | Designator | Replacement |
@@ -52,6 +48,10 @@ The calibration IC U136 is a 24LC16B, an I2C EEPROM. This was read in-circuit by
 | C156 | MAL219055682E3 |
 
 ## Fault repairs
+
+...
+
+## Flashing new firmware
 
 ...
 
