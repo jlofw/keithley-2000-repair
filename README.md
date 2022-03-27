@@ -27,15 +27,15 @@
 
 ## Firmware and calibration backup
 
-![firmware and cal ic](/images/cpu?raw=true)
+![firmware and cal ic](/images/cpu.jpg?raw=true)
 
 To backup the existing calibration and firmware data a [TL866 II Plus](http://www.xgecu.com/en/) was used with the official software. The firmware IC's U156 and U157 are M27C1001 in PLCC32 packages. To read them they were removed and inserted into an appropiate adapter connected to the TL866.
 
-![firmware chip read](/images/tl866?raw=true)
+![firmware chip read](/images/tl866.jpg?raw=true)
 
 The calibration IC U136 is a 24LC16B, an I2C EEPROM. This was read in-circuit by first removing both the firmware IC's to enter the correct CPU mode. The GND pin, SCL pin and SDA pin of the 24LC16B was connected to the TL866 via the ICSP port on the TL866. The K2000 was then powered on until the cal data was correctly read.
 
-![cal ic read](/images/read_cal?raw=true)
+![cal ic read](/images/read_cal.jpg?raw=true)
 
 ## Reference
 
