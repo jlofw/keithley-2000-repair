@@ -35,7 +35,7 @@ To back up the existing calibration and firmware data a [TL866 II Plus](http://w
 
 ![firmware chip read](/images/tl866.jpg?raw=true)
 
-The calibration IC U136 is a 24LC16B, an I2C EEPROM. This was read in-circuit by first removing both the firmware ICs to enter the correct CPU mode. The GND pin, SCL pin and SDA pin of the 24LC16B were connected to the TL866 via the ICSP port on the TL866. The K2000 was then powered on until the cal data was correctly read.
+The calibration IC U136 is a 24LC16B, an I2C EEPROM. This was read in-circuit by first removing both the firmware ICs to enter the correct CPU mode. The GND pin, SCL pin and SDA pin of the 24LC16B were connected to the TL866 via the ICSP port. The K2000 was then powered on until the cal data was correctly read.
 
 ![cal ic read](/images/read_cal.jpg?raw=true)
 
@@ -48,7 +48,9 @@ To upgrade the firmware the following replacement memory ICs were used:
 | U156 | SST39SF020A-70-4C-NHE |
 | U157 | SST39SF020A-70-4C-NHE |
 
-Firmware version A19 (see resources) were flashed onto them with the TL866 II Plus and an appropriate PLCC32 adapter.
+Firmware version A19 (see resources) were flashed onto them with the TL866 II Plus.
+
+![firmware updated](/images/firmware_updated.jpg?raw=true)
 
 ## Electrolytic capacitor replacement
 
