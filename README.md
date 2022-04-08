@@ -8,8 +8,7 @@
 
 - 100.2
   - This test has the identical setup as the 100.1 test. Signal LO is connected
-    to the A/D circuit for ten readings and a min/max comparison is done to en-
-    sure that all readings are within 100 counts of each other. The test is to check
+    to the A/D circuit for ten readings and a min/max comparison is done to ensure that all readings are within 100 counts of each other. The test is to check
     for noise. The failures are the same as in test 100.1.
 
     Primary checks should be the references and power supplies. Secondary
