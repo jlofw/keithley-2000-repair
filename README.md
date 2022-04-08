@@ -1,5 +1,7 @@
 # Repair documentation (work in progress)
 
+![overview of pcb](/images/overview_pcb.jpg?raw=true)
+
 ## Built-in test
 
 ### Failed tests
@@ -29,31 +31,40 @@
 
 ![firmware and cal ic](/images/cpu.jpg?raw=true)
 
-To backup the existing calibration and firmware data a [TL866 II Plus](http://www.xgecu.com/en/) was used with the official software. The firmware IC's U156 and U157 are M27C1001 in PLCC32 packages. To read them they were removed and inserted into an appropiate adapter connected to the TL866.
+To back up the existing calibration and firmware data a [TL866 II Plus](http://www.xgecu.com/en/) was used with the official software. The firmware ICs U156 and U157 are M27C1001 in PLCC32 packages. To read them they were removed and inserted into an appropriate adapter connected to the TL866.
 
 ![firmware chip read](/images/tl866.jpg?raw=true)
 
-The calibration IC U136 is a 24LC16B, an I2C EEPROM. This was read in-circuit by first removing both the firmware IC's to enter the correct CPU mode. The GND pin, SCL pin and SDA pin of the 24LC16B was connected to the TL866 via the ICSP port on the TL866. The K2000 was then powered on until the cal data was correctly read.
+The calibration IC U136 is a 24LC16B, an I2C EEPROM. This was read in-circuit by first removing both the firmware ICs to enter the correct CPU mode. The GND pin, SCL pin and SDA pin of the 24LC16B were connected to the TL866 via the ICSP port on the TL866. The K2000 was then powered on until the cal data was correctly read.
 
 ![cal ic read](/images/read_cal.jpg?raw=true)
 
 ## Flashing new firmware
 
-...
+To upgrade the firmware the following replacement memory ICs were used:
+
+| Designator | Replacement |
+| ---------- | ----------- |
+| U156 | SST39SF020A-70-4C-NHE |
+| U157 | SST39SF020A-70-4C-NHE |
+
+Firmware version A19 (see resources) were flashed onto them with the TL866 II Plus and an appropriate PLCC32 adapter.
 
 ## Electrolytic capacitor replacement
 
 | Designator | Replacement |
-| ---        | ----------- |
+| ---------- | ----------- |
 | C104 | 63YXF100MEFC10X12.5 |
 | C131 | ECA-1HHG102 |
 | C146 | 16ZLJ2200M12.5X20|
 | C148 | ECA-1HHG102 |
 | C156 | MAL219055682E3 |
 
+TBD...
+
 ## Fault repairs
 
-...
+After upgrading the firmware from A06 to A19 all faults disappeared.
 
 ## Reference
 
