@@ -1,4 +1,4 @@
-# Repair documentation (work in progress)
+# Keithley 2000 repair documentation (work in progress)
 
 ![overview of pcb](/images/overview_pcb.jpg?raw=true)
 
@@ -27,7 +27,7 @@
 - 600.2
 - 601.2
 
-## Firmware and calibration backup
+## Firmware and calibration data backup
 
 ![firmware and cal ic](/images/cpu.jpg?raw=true)
 
