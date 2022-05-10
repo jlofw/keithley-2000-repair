@@ -71,6 +71,7 @@ After upgrading the firmware from A06 to A19 all faults disappeared.
 
 - K2000 Repair Manual (see resources)
 - <https://xdevs.com/fix/kei2000/>
+- <https://xdevs.com/doc/Keithley/>
 - <https://xdevs.com/guide/plastic_bleach/>
 - <https://www.eevblog.com/forum/repair/keithley-2000-firmware-update/>
 - <https://www.eevblog.com/forum/repair/repair-old-keithley-2000-teardown-and-fix/>
